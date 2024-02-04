@@ -90,7 +90,7 @@ namespace FileOperationApp
                 StreamReader str = new StreamReader("Employee.txt");
                 line = str.ReadLine();
                 while (line != null)
-                { 
+                {
                     string[] data = line.Split("\n");
                     for (int i = 0; i < data.Length; i++)
                     {
